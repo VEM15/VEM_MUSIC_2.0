@@ -19,9 +19,9 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("API_ID", "27705018"))
 
-API_HASH = getenv("API_HASH")
+API_HASH = getenv("API_HASH"7d1f14a0a818e651e147f2a95e560232")
 
 
 ## Get it from @Botfather in Telegram.
@@ -75,7 +75,7 @@ LOG_GROUP_ID = getenv("LOG_GROUP_ID", "")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6815918609").split())
+    map(int, getenv("OWNER_ID", "7910002246").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -101,11 +101,11 @@ GIT_TOKEN = getenv(
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/TheTeamVivek"
-)  # Example:- https://t.me/TheTeamVivek
+    "SUPPORT_CHANNEL", "https://t.me/VENOM_OFFICIAL_CHANNEL"
+)  # Example:- https://t.me/VENOM_OFFICIAL_CHANNEL
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/TheTeamVk"
-)  # Example:- https://t.me/TheTeamVk
+    "SUPPORT_GROUP", "https://t.me/FRIENSHIP_CLUB_GROUP"
+)  # Example:- https://t.me/VENOM_OFFICIAL_CHANNEL
 
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
@@ -129,7 +129,7 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/TheTeamVivek/YukkiMusic")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/FEELING_SMILEY")
 
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
@@ -199,17 +199,17 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg",  # This is the file id of the photo you can also put the url of photo
+    "https://files.catbox.moe/ayoeln.jpg",  # This is the file id of the photo you can also put the url of photo
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/91533956c91d0fd7c9f20.jpg",
+    "https://files.catbox.moe/llms6m.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "https://envs.sh/W_z.jpg",
+    "https://files.catbox.moe/ur6lqu.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
